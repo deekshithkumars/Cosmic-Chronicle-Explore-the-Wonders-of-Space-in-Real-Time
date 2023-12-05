@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- head section -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:rgb(160, 241, 140);">
+
+<!-- body section -->
+<body>
+  <header>
+    <div id="header">
+      <h1>Space Dashboard</h1>
+    </div>
+  </header>
+
+  <div id="celestial-events">
+    <h2>Celestial Events</h2>
+    <p id="celestial-events-data">Loading...</p>
+  </div>
+
+     <!--Section to display The current Satellite Positions using NYO API-->
+     <section id="satellite-positions" class="card">
+      <h2 class="left">Satellite Positions</h2>
+      <div id="satellite-positions-data" class="right"></div>
+    </section>
+  
+
+
+
+
+  <div id="launch-schedule">
+    <h2>Launch Schedule</h2>
+    <p id="launch-schedule-data">Loading...</p>
+  </div>
+
+<!-- display image -->
+<div class="container">
+  <div class="details-container">
+      <div class="title">
+          <h1>Astronomical Picture Of the Day</h1>
+      </div>
+      <div class="details">
+          <div class="details-input">
+              <span>Date: </span>
+              <input type="date">
+          </div>
+          <button id="fetch-image">Fetch Image</button>
+      </div>
+  </div>
+  <div class="image-container">
+  </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+}
+#header{
+  box-shadow: 2px 2px 8px cyan;
+  text-shadow:1px 1px 3px #FF00FF;
+}
+header {
+  background-color: rgba(0, 0, 0, 0.5);
+  color:#E0FFFF;
+  padding: 1em;
+  text-align: center;
+  font-size: larger;
+}
+h2{
+  color:#E0FFFF;
+}
+p{
+  color:#E0FFFF;
+}
+#celestial-events {
+ margin: 20px;
+}
+#launch-schedule {
+  margin: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .details-container{
+    height: 300px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .details-container .details{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .details-container .details-input{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  input{
+    border-radius: 7px;
+    border: 0.5px solid cyan;
+    background-color:rgba(255, 0, 255, 0.2);
+    color: #E0FFFF;
+    width: 120px;
+    height: 25px;
+    text-shadow:1px 1px 3px cyan;
+  }
+  
+  .details-container .title h1{
+    color:#E0FFFF;
+    font-size: 46px;
+    opacity: 0.8;
+    text-shadow:1px 1px 3px #FF00FF;
+  }
+  .details-container .title{
+    box-shadow: 2px 2px 6px cyan;
+  }
+  
+  .details-container .details-input span{
+    color: #E0FFFF;
+    opacity: 0.8;
+    font-size: 26px;
+  }
+  #satellite-positions-data{
+    margin: 20px;
+    color:#E0FFFF;
+  }
+  .left{
+    margin: 20px;
+    color:#E0FFFF;
+  }
+  
+
+  
+  .details-container button{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-shadow:1px 1px 3px cyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #E0FFFF;
+    padding: 2px;
+    background-color:rgba(255, 0, 255, 0.2);
+    border: 0.5px solid cyan;
+    cursor: pointer;
+    transition: 1s;
+  }
+  .details-container button:hover{
+    transform: scale(1.1);
+    background-color:rgba(234, 0, 255, 0.4);
+  }
+  .image-container{
+    padding: 50px;
+  }
+  
+  .image-container img{
+    width: 100%;
+  }
+
+  
